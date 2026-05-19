@@ -61,6 +61,7 @@ Provide a helpful support response. If this customer has had billing issues befo
                 ],
                 max_tokens=200,
                 temperature=0.7
+            
             )
             
             agent_response = response.choices[0].message.content
@@ -98,8 +99,8 @@ Provide a helpful support response. Keep it brief and generic.
                     {"role": "user", "content": user_prompt}
                 ],
                 max_tokens=200,
-                temperature=0.7,
-                reasoning_format="hidden"
+                temperature=0.7
+            
             )
             
             agent_response = response.choices[0].message.content
