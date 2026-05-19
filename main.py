@@ -3,7 +3,7 @@ import sys
 from dotenv import load_dotenv
 from agent import SupportAgent
 
-load_dotenv()
+load_dotenv() 
 agent = SupportAgent()
 
 def chat_with_customer(customer_name: str, customer_id: str, message: str):
