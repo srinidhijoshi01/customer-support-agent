@@ -2,7 +2,7 @@
 
 An AI-powered customer support agent that remembers customer interactions and provides personalized responses using Hindsight memory layer and cascadeflow runtime intelligence.
 
-## Features
+## Features..
 
 - *Persistent Memory*: Agent remembers customer interactions across sessions using Hindsight
 - *Personalized Responses*: Adapts responses based on customer history
